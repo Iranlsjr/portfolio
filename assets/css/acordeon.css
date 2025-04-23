@@ -9,8 +9,8 @@
 /*Quando estiver aberto*/
 .acordeon.acordeon.open,
 .acordeon:hover {
-  background-color: #ae6d49;
-  border-color: #ae6d49;
+  background-color: #323946;
+  border-color: #fff;
 }
 /* Acordeon fechado (botton)*/
 .acordeon .trigger {
@@ -25,6 +25,11 @@
   font-weight: 700;
   cursor: pointer;
 }
+.acordeon .trigger h2{
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: start;
+}
 /*------------------------------------*/
 
 /* Ícone Arrow*/
@@ -33,8 +38,9 @@
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(/assets/img/icons8-para-cima-com-quadrado-50.png);
+  background-image: url(/assets/img/icons/acordeon/icons8-divisa-circulada-acima-30.png);
   background-size: contain;
+  background-repeat: no-repeat;
   transition: 0.7s;
 }
 /*Ícone Arrow   Aberto*/
