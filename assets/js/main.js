@@ -1,3 +1,4 @@
+//Funcao para puxar informacao do json para o header 
 function updateProfileInfo(profileData){
     const  photo = document.getElementById('profile.photo')
     photo.src = profileData.photo
@@ -25,8 +26,15 @@ function updateProfileInfo(profileData){
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
 }
+//Funcao para puxar informacao do json para o skills personal
+function  updateSoftSkills(profileData){
+   const softSkills = document.getElementById('profile.softSkills')
+    softSkills.innerHTML =  profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join('')
+}
+
 
 (async  () => {
     const profileData = await fetchProfileData()
     updateProfileInfo(profileData)
+    updateSoftSkills(profileData)
 })()
