@@ -13,6 +13,12 @@ function updateProfileInfo(profileData){
     const localization = document.getElementById('profile.localization')
     localization.innerText = profileData.localization
 
+    const phone  = document.getElementById('profile.phone')
+    phone.innerText = profileData.phone
+
+    const email = document.getElementById('profile.email')
+    email.innerText = profileData.email
+
 
 
 

@@ -55,7 +55,7 @@
 .information .github::before {
   background-image: url(/assets/img/icons/header/icons8-github-30.png);
 }
-.information .whatsapp::before {
+.information .phone::before {
   background-image: url(/assets/img/icons/header/icons8-whatsapp-30.png);
 }
 .information .email::before {
