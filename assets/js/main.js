@@ -3,7 +3,6 @@ function updateProfileInfo(profileData){
     photo.src = profileData.photo
     photo.alt = profileData.name
 
-
     const name = document.getElementById('profile.name')
     name.innerText = profileData.name
 
@@ -25,10 +24,6 @@ function updateProfileInfo(profileData){
     const email = document.getElementById('profile.email')
     email.innerText = profileData.email
     email.href = `mailto:${profileData.email}`
-
-
-
-
 }
 
 (async  () => {
