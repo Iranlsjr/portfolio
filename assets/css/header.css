@@ -43,7 +43,7 @@
   text-decoration: underline;
 }
 
-.information .avatar::before {
+.information .job::before {
   background-image: url(/assets/img/icons/header/icons8-avatar-30.png);
 }
 .information .localization::before {
