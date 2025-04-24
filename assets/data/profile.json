@@ -1,10 +1,10 @@
 {
-    "name": "Renan J Paula",
-    "photo": "https://avatars.githubusercontent.com/u/3266640?v=4",
-    "job": "Tech Lead no S3 Bank",
+    "name": "Iran Lourenço",
+    "photo": "https://avatars.githubusercontent.com/u/199543098?v=4",
+    "job": "Dev Full Stack",
     "location": "São Paulo - SP",
-    "phone": "(16) 98159-7656",
-    "email": "renanjohannsen@gmail.com",
+    "phone": "(11) 99498-4709",
+    "email": "iran.lourenco.jr@gmail.com",
     "skills": {
       "hardSkills": [
         {
@@ -77,5 +77,3 @@
     ]
   }
 
-/*
-  https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/refs/heads/main/data/profile.json*/
