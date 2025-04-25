@@ -37,8 +37,15 @@ function updateSoftSkills(profileData) {
 function updateHardSkills(profileData) {
   const hardSkills = document.getElementById("profile.hardSkills");
   hardSkills.innerHTML = profileData.skills.hardSkills
-    .map((skill) => `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`)
+    .map(
+      (skill) =>
+        `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`
+    )
     .join("");
+}
+//Funcao para puxar informacao do json para o idiomas
+function updateLanguages(profileData) {
+  const languages = document.getElementById("");
 }
 
 (async () => {
