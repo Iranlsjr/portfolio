@@ -15,43 +15,43 @@
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-css-50.png"
         },
         {
           "name": "BootStrap",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-bootstrap-50.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
         },
         {
           "name": "PHP",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-php-50.png"
         },
         {
           "name": "Python",
-          "logo": "https://github.com/Iranlsjr/js-developer-portfolio/blob/main/assets/data/img/icons/tools/icons8-html-50.png?raw=true"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-python-50.png"
         },
         {
           "name": "MySQL",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
         },
         {
           "name": "Git",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-git-50.png"
         },
         {
           "name": "GitHub",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-github-50.png"
         },
         {
           "name": "Trello",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-trello-50.png"
         },
         {
           "name": "HubSpot",
-          "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/js-developer-portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-hubspot-50.png"
         }
       ],
       "softSkills": [
