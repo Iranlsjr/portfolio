@@ -31,7 +31,7 @@ function updateSoftSkills(profileData) {
   const softSkills = document.getElementById("profile.softSkills");
   softSkills.innerHTML = profileData.skills.softSkills
     .map((skill) => `<li>${skill}</li>`)
-    .join("");
+    .join('');
 }
 //Funcao para puxar informacao do json para o skills Profisisonal
 function updateHardSkills(profileData) {
@@ -41,11 +41,12 @@ function updateHardSkills(profileData) {
       (skill) =>
         `<li><img src="${skill.logo}" alt="${skill.name}" title="${skill.name}"></li>`
     )
-    .join("");
+    .join('');
 }
 //Funcao para puxar informacao do json para o idiomas
 function updateLanguages(profileData) {
-  const languages = document.getElementById("");
+  const languages = document.getElementById("profile.languages");
+  languages.innerHTML = profileData.languages.map(languages => `<li>${languages}</li>`).join('')
 }
 
 (async () => {
@@ -53,4 +54,5 @@ function updateLanguages(profileData) {
   updateProfileInfo(profileData);
   updateSoftSkills(profileData);
   updateHardSkills(profileData);
+  updateLanguages(profileData);
 })();
