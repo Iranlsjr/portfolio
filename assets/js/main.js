@@ -70,7 +70,7 @@ function updateProfessionalExperience(profileData){
               <span class="period">${experience.period}</span>
               <p>${experience.descripton}</p>
     `
-  }).joi('')
+  }).join('')
 }
 (async () => {
   const profileData = await fetchProfileData();
