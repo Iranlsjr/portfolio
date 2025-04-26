@@ -62,7 +62,7 @@ function updatePortfolio(profileData) {
     })
     .join("");
 }
-updateProfessionalExperience(profileData){
+function updateProfessionalExperience(profileData){
   const professionalExperience = document.getElementById("profile.experience")
   professionalExperience.innerHTML  = profileData.professionalExperience.map((experience) => {
     return `
