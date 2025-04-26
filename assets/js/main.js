@@ -50,7 +50,7 @@ function updateLanguages(profileData) {
     .map((languages) => `<li>${languages}</li>`)
     .join("");
 }
-function updatePortfolio(profile) {
+function updatePortfolio(profileData) {
   const portfolio = document.getElementById("profile.portfolio");
   portfolio.innerHTML = profileData.portfolio
     .map((project) => {
@@ -62,6 +62,22 @@ function updatePortfolio(profile) {
     })
     .join("");
 }
+updateProfessionalExperience(profileData){
+  const professionalExperience = document.getElementById("profile.experience")
+  professionalExperience.innerHTML  = profileData.professionalExperience.map((experience) => {
+    return `
+                  <h3 class="title">${experience.name}</h3>
+              <span class="period">Jul 2024 - Current</span>
+              <p>
+                Atendimento ao público dando suporte referente a utilização do
+                sistema e requisições, consultas e alterações em banco de dados
+                SQL, testes para otimização de sistema, envio de sugestões para
+                melhorias de do sistema e correções de bugs. Manipulação de
+                banco de dados SQL, comparação de tabelas.
+              </p>
+    `
+  }).joi('')
+}
 (async () => {
   const profileData = await fetchProfileData();
   updateProfileInfo(profileData);
@@ -69,5 +85,5 @@ function updatePortfolio(profile) {
   updateHardSkills(profileData);
   updateLanguages(profileData);
   updatePortfolio(profileData);
-  update(profileData);
+  updateProfessionalExperience(profileData);
 })();
