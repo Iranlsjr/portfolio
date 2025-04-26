@@ -68,14 +68,9 @@
     ],
     "portfolio": [
       {
-        "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-        "url": "https://github.com/RenanJPaula/js-developer-pokedex",
-        "github": true
-      },
-      {
-        "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-        "url": "https://github.com/RenanJPaula/js-developer-portfolio",
-        "github": true
+        "name": "Lading page para corretor de imóveis",
+        "url": "https://symphonious-twilight-ac97e6.netlify.app/",
+        "github": false
       }
     ],
     "professionalExperience": [
