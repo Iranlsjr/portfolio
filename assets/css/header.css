@@ -50,16 +50,16 @@
   background-image: url(/assets/img/icons/header/icons8-perímetro-virtual-30.png);
 }
 .information .linkedin::before {
-  background-image: url(assets/img/icons/header/icons8-linkedin-30.png);
+  background-image: url(/assets/img/icons/header/icons8-linkedin-30.png);
 }
 .information .github::before {
-  background-image: url(assets/img/icons/header/icons8-github-30.png);
+  background-image: url(/assets/img/icons/header/icons8-github-30.png);
 }
 .information .phone::before {
-  background-image: url(assets/img/icons/header/icons8-whatsapp-30.png);
+  background-image: url(/assets/img/icons/header/icons8-whatsapp-30.png);
 }
 .information .email::before {
-  background-image: url(assets/img/icons/header/icons8-nova-mensagem-30.png);
+  background-image: url(/assets/img/icons/header/icons8-nova-mensagem-30.png);
 }
 
 @media screen and (min-width: 768px) {
