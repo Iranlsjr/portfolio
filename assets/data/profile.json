@@ -11,47 +11,47 @@
       "hardSkills": [
         {
           "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-html-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/maina/ssets/data/img/icons/tools/icons8-html-50.png"
         },
         {
           "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-css-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-css-50.png"
         },
         {
           "name": "BootStrap",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-bootstrap-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-bootstrap-50.png"
         },
         {
           "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-javascript-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
         },
         {
           "name": "PHP",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-php-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-php-50.png"
         },
         {
           "name": "Python",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-python-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-python-50.png"
         },
         {
           "name": "MySQL",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-mysql-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
         },
         {
           "name": "Git",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-git-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-git-50.png"
         },
         {
           "name": "GitHub",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-github-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-github-50.png"
         },
         {
           "name": "Trello",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-trello-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-trello-50.png"
         },
         {
           "name": "HubSpot",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/mainassets/data/img/icons/tools/icons8-hubspot-50.png"
+          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-hubspot-50.png"
         }
       ],
       "softSkills": [
