@@ -44,13 +44,13 @@
 }
 
 .information .job::before {
-  background-image: url(assets//img/icons/header/icons8-avatar-30.png);
+  background-image: url(assets/img/icons/header/icons8-avatar-30.png);
 }
 .information .localization::before {
-  background-image: url(assets//img/icons/header/icons8-perímetro-virtual-30.png);
+  background-image: url(assets/img/icons/header/icons8-perímetro-virtual-30.png);
 }
 .information .linkedin::before {
-  background-image: url(assets//img/icons/header/icons8-linkedin-30.png);
+  background-image: url(assets/img/icons/header/icons8-linkedin-30.png);
 }
 .information .github::before {
   background-image: url(assets//img/icons/header/icons8-github-30.png);
