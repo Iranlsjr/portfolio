@@ -3,7 +3,7 @@
 /*DECLARANDO FONT NeueMachina-Regular*/
 @font-face {
   font-family: "NeueMachina-Regular";
-  src: url("/assets/fonts/NeueMachina-Regular.otf");
+  src: url("assets//fonts/NeueMachina-Regular.otf");
 }
 * {
   box-sizing: border-box;
