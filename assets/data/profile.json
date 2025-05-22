@@ -1,89 +1,88 @@
 {
-    "name": "Iran Lourenço",
-    "photo": "https://avatars.githubusercontent.com/u/199543098?v=4",
-    "job": "Dev Full Stack - Junior",
-    "localization": "São Paulo - SP",
-    "linkedin": "LinkedIn",
-    "github": "Github",
-    "phone": "(11) 99498-4709",
-    "email": "iran.lourenco.jr@gmail.com",
-    "skills": {
-      "hardSkills": [
-        {
-          "name": "HTML",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-html-50.png"
-        },
-        {
-          "name": "CSS",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-css-50.png"
-        },
-        {
-          "name": "BootStrap",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-bootstrap-50.png"
-        },
-        {
-          "name": "JavaScript",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
-        },
-        {
-          "name": "PHP",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-php-50.png"
-        },
-        {
-          "name": "Python",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-python-50.png"
-        },
-        {
-          "name": "MySQL",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
-        },
-        {
-          "name": "Git",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-git-50.png"
-        },
-        {
-          "name": "GitHub",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-github-50.png"
-        },
-        {
-          "name": "Trello",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-trello-50.png"
-        },
-        {
-          "name": "HubSpot",
-          "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-hubspot-50.png"
-        }
-      ],
-      "softSkills": [
-        "Vontade de aprender e se desenvolver",
-        "Proatividade e curiosidade",
-        "Boa comunicação e trabalho em equipe",
-        "Organização e responsabilidade com prazos"
-      ]
-    },
-    "languages": [
-      "Português BR",
-      "Espanhol (intermediary)",
-      "Inglês (Basic)"
-    ],
-    "portfolio": [
+  "name": "Iran Lourenço",
+  "photo": "https://avatars.githubusercontent.com/u/199543098?v=4",
+  "job": "Dev Full Stack - Junior",
+  "localization": "São Paulo - SP",
+  "linkedin": "LinkedIn",
+  "github": "Github",
+  "phone": "(11) 99498-4709",
+  "email": "iran.lourenco.jr@gmail.com",
+  "skills": {
+    "hardSkills": [
       {
-        "name": "Lading page para corretor de imóveis",
-        "url": "https://symphonious-twilight-ac97e6.netlify.app/",
-        "github": true
-      }
-    ],
-    "professionalExperience": [
-      {
-        "name": "Analista de Suporte N1 - Grupo DM10",
-        "period": "Jul 2024 - Current",
-        "description": "Atendimento ao cliente realizando suporte referente a utilização do sistema e requisições, consultas e alterações de banco de dado SQL, testes para otimização de sistema, envio de sugestoes para melhorias do sistema e correções de bugs.  Manipulação de banco de dados SQL e comparação de tabelas."
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-html-50.png"
       },
       {
-        "name": "Estagiário em Desenvolvimento Web - Grupo DM10",
-        "period": "Jan 2024 - Jul 2024",
-        "description": "Atuei no desenvolvimento de sistemas como estagiário, na manutenção e otimização de aplicações web e bancos de dados."
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-css-50.png"
+      },
+      {
+        "name": "BootStrap",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-bootstrap-50.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
+      },
+      {
+        "name": "PHP",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-php-50.png"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-python-50.png"
+      },
+      {
+        "name": "Flutter",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-vibrar-50.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-git-50.png"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-github-50.png"
+      },
+      {
+        "name": "Trello",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-trello-50.png"
+      },
+      {
+        "name": "HubSpot",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-hubspot-50.png"
       }
+    ],
+    "softSkills": [
+      "Vontade de aprender e se desenvolver",
+      "Proatividade e curiosidade",
+      "Boa comunicação e trabalho em equipe",
+      "Organização e responsabilidade com prazos"
     ]
-  }
-
+  },
+  "languages": ["Português BR", "Espanhol (intermediary)", "Inglês (Basic)"],
+  "portfolio": [
+    {
+      "name": "Lading page para corretor de imóveis",
+      "url": "https://symphonious-twilight-ac97e6.netlify.app/",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Analista de Suporte N1 - Grupo DM10",
+      "period": "Jul 2024 - Current",
+      "description": "Atendimento ao cliente realizando suporte referente a utilização do sistema e requisições, consultas e alterações de banco de dado SQL, testes para otimização de sistema, envio de sugestoes para melhorias do sistema e correções de bugs.  Manipulação de banco de dados SQL e comparação de tabelas."
+    },
+    {
+      "name": "Estagiário em Desenvolvimento Web - Grupo DM10",
+      "period": "Jan 2024 - Jul 2024",
+      "description": "Atuei no desenvolvimento de sistemas como estagiário, na manutenção e otimização de aplicações web e bancos de dados."
+    }
+  ]
+}
