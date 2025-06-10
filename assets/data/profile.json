@@ -10,16 +10,8 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-html-50.png"
-      },
-      {
-        "name": "CSS",
-        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-css-50.png"
-      },
-      {
-        "name": "BootStrap",
-        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-bootstrap-50.png"
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-angular-50.png"
       },
       {
         "name": "JavaScript",
