@@ -1,12 +1,12 @@
 {
-  "name": "Iran Lourenço",
+  "name": "Irani Lourenço",
   "photo": "https://avatars.githubusercontent.com/u/199543098?v=4",
   "job": "Dev Full Stack - Junior",
-  "localization": "São Paulo - SP",
+  "localization": "Madrid - ES",
   "linkedin": "LinkedIn",
   "github": "Github",
-  "phone": "(11) 99498-4709",
-  "email": "iran.lourenco.jr@gmail.com",
+  "phone": "+34 654 26 4995",
+  "email": "lourenco.j.br@gmail.com",
   "skills": {
     "hardSkills": [
       {
@@ -60,21 +60,21 @@
   "languages": ["Português BR", "Espanhol (intermediary)", "Inglês (Basic)"],
   "portfolio": [
     {
-      "name": "Lading page para corretor de imóveis",
+      "name": "Landing page para corretor de imóveis",
       "url": "https://symphonious-twilight-ac97e6.netlify.app/",
       "github": true
     }
   ],
   "professionalExperience": [
     {
-      "name": "Analista de Suporte N1 - Grupo DM10",
+      "name": "Analista de Soporte de TI - Grupo DM10",
       "period": "Jul 2024 - Current",
-      "description": "Atendimento ao cliente realizando suporte referente a utilização do sistema e requisições, consultas e alterações de banco de dado SQL, testes para otimização de sistema, envio de sugestoes para melhorias do sistema e correções de bugs.  Manipulação de banco de dados SQL e comparação de tabelas."
+      "description": "Soporte técnico a usuarios sobre el uso del sistema: gestión de requisiciones, consultas y modificaciones en bases de datos SQL.  Pruebas de optimización del sistema y propuestas de mejora.  Identificación y corrección de errores (bugs), con documentación de problemas y soluciones.  Manipulación de bases de datos SQL y comparación de tablas."
     },
     {
-      "name": "Estagiário em Desenvolvimento Web - Grupo DM10",
+      "name": "Becario en Desarrollo de Sistemas - Grupo DM10",
       "period": "Jan 2024 - Jul 2024",
-      "description": "Atuei no desenvolvimento de sistemas como estagiário, na manutenção e otimização de aplicações web e bancos de dados."
+      "description": "• Soporte y pruebas de sistemas y aplicaciones: pruebas funcionales, casos de prueba y documentación de incidencias. Trabajo con SQL: gestión, modelado, integración de datos, copias de seguridad y recuperación.  Desarrollo web con HTML, CSS, PHP, Python y JavaScript, con integración front-end y back-end."
     }
   ]
 }
