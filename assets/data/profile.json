@@ -17,6 +17,10 @@
         "name": "Angular",
         "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-angular-50.png"
       },
+                  {
+        "name": "NMAP",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-nmap-50.png"
+      },
       {
         "name": "JavaScript",
         "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
