@@ -29,6 +29,10 @@
         "name": "Flutter",
         "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-flutter-50.png"
       },
+            {
+        "name": "DBeaver",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
+      },
       {
         "name": "MySQL",
         "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
