@@ -1,0 +1,22 @@
+{
+  "stack": [
+    { "name": "Pentest"},
+    { "name": "OSINT"},
+    { "name": "Datos",        "tip": "Grupo DM10 · ASIR" },
+    { "name": "Desarrollo web",        "tip": "Grupo DM10 · ASIR" },
+    { "name": "Git" },
+
+
+
+
+
+    { "name": "SQL",        "tip": "Grupo DM10 · ASIR" },
+    { "name": "PHP",        "tip": "Grupo DM10" },
+    { "name": "JavaScript", "tip": "Grupo DM10 · Medio Web" },
+    { "name": "Python",     "tip": "Grupo DM10" },
+    { "name": "HTML · CSS", "tip": "Grupo DM10 · Medio Web" },
+    { "name": "ScriptCase", "tip": "Grupo DM10" },
+    { "name": "GitHub" },
+    { "name": "REST APIs" }
+  ]
+}
