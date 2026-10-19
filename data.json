@@ -1,22 +1,26 @@
 {
   "stack": [
-    { "name": "Pentest"},
-    { "name": "OSINT"},
-    { "name": "Datos",        "tip": "Grupo DM10 · ASIR" },
-    { "name": "Desarrollo web",        "tip": "Grupo DM10 · ASIR" },
+    { "name": "Pentest" },
+    { "name": "OSINT" },
+    { "name": "Datos", "tip": "Grupo DM10 · ASIR" },
+    { "name": "Desarrollo web", "tip": "Grupo DM10 · ASIR" },
     { "name": "Git" },
-
-
-
-
-
-    { "name": "SQL",        "tip": "Grupo DM10 · ASIR" },
-    { "name": "PHP",        "tip": "Grupo DM10" },
+    { "name": "SQL", "tip": "Grupo DM10 · ASIR" },
+    { "name": "PHP", "tip": "Grupo DM10" },
     { "name": "JavaScript", "tip": "Grupo DM10 · Medio Web" },
-    { "name": "Python",     "tip": "Grupo DM10" },
+    { "name": "Python", "tip": "Grupo DM10" },
     { "name": "HTML · CSS", "tip": "Grupo DM10 · Medio Web" },
     { "name": "ScriptCase", "tip": "Grupo DM10" },
     { "name": "GitHub" },
     { "name": "REST APIs" }
-  ]
+  ],
+  "skills": {
+    "titulo": "Skills",
+    "grupos": [
+      { "nome": "Desarrollo", "tags": ["PHP", "JavaScript", "Python", "HTML", "CSS", "ScriptCase"] },
+      { "nome": "Datos y APIs", "tags": ["SQL", "REST APIs"] },
+      { "nome": "Herramientas", "tags": ["Git", "GitHub"] },
+      { "nome": "Sistemas y redes", "tags": ["Redes · en formación", "Sistemas · en formación"] }
+    ]
+  }
 }
