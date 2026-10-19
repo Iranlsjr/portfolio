@@ -1,0 +1,774 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Irani Lourenço | Desarrollo web y soporte IT – Madrid</title>
+  <meta name="description"
+    content="Iran Lourenço, desarrollador Full Stack y técnico ASIR junior en Madrid. Desarrollo web, bases de datos y soporte IT.">
+  <meta name="theme-color" content="#11141B">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Iran Lourenço | Desarrollo web y soporte IT – Madrid">
+  <meta property="og:description"
+    content="Desarrollador Full Stack y técnico ASIR junior. Proyectos, experiencia y contacto.">
+  <meta property="og:image" content="https://iranlsjr.github.io/portfolio/assets/img/img-iran.jpeg">
+  <meta property="og:url" content="https://iranlsjr.github.io/portfolio/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Figtree:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --bg: #11141B;
+      --bg2: #151922;
+      --surface: #1A1F2A;
+      --line: #2B3240;
+      --text: #EDEFF4;
+      --soft: #C4CAD8;
+      --muted: #A3ABBD;
+      --accent: #FFD21F
+    }
+
+    * {
+      box-sizing: border-box
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 84px
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.55 'Figtree', system-ui, sans-serif
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 3px
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      margin: 0
+    }
+
+    p {
+      margin: 0
+    }
+
+    .wrap {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 72px 32px
+    }
+
+    .muted {
+      color: var(--muted)
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding: 0 22px;
+      border-radius: 999px;
+      border: 1.5px solid #3A4357;
+      font-weight: 600;
+      color: var(--text)
+    }
+
+    .btn:hover {
+      border-color: var(--accent)
+    }
+
+    .btn.p {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: var(--bg)
+    }
+
+    .tag {
+      display: inline-block;
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: 1px solid #343C50;
+      color: var(--soft);
+      font-size: 13px;
+      font-weight: 500
+    }
+
+    .tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap
+    }
+
+    .h2 {
+      font-size: 36px;
+      line-height: 1.1;
+      letter-spacing: -.01em
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 18px;
+      margin: 10px 0 36px
+    }
+
+    /* Cabecera */
+    .top {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+      background: var(--bg);
+      border-bottom: 1px solid #222836
+    }
+
+    .top .in {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 12px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px
+    }
+
+    .logo {
+      font: 700 24px 'Bricolage Grotesque', sans-serif
+    }
+
+    .logo span {
+      color: var(--accent)
+    }
+
+    .nav {
+      display: flex;
+      gap: 28px;
+      color: var(--soft);
+      font-weight: 500
+    }
+
+    .nav a:hover {
+      color: var(--text)
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 56px;
+      flex-wrap: wrap;
+      padding-top: 64px;
+      padding-bottom: 80px
+    }
+
+    .hero .txt {
+      flex: 1 1 460px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 22px
+    }
+
+    .pill {
+      color: var(--accent);
+      border-color: #5C4E10
+    }
+
+    h1 {
+      font-size: clamp(40px, 6vw, 64px);
+      line-height: 1.02;
+      letter-spacing: -.02em
+    }
+
+    h1 span {
+      color: var(--accent)
+    }
+
+    .role {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 1.35
+    }
+
+    .intro {
+      color: var(--muted);
+      font-size: 18px;
+      max-width: 520px
+    }
+
+    .row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap
+    }
+
+    .links {
+      display: flex;
+      gap: 24px;
+      color: var(--muted);
+      font-weight: 500
+    }
+
+    .links a:hover {
+      color: var(--text)
+    }
+
+    .photo {
+      flex: 1 1 280px;
+      display: flex;
+      justify-content: center
+    }
+
+    .ring {
+      border: 1.5px solid var(--line);
+      border-radius: 50%;
+      padding: 14px
+    }
+
+    .ring img {
+      display: block;
+      width: 300px;
+      height: 300px;
+      max-width: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 8px solid var(--accent)
+    }
+
+    /* Stack */
+    .stack {
+      border-top: 1px solid #222836;
+      border-bottom: 1px solid #222836;
+      background: var(--bg2)
+    }
+
+    .stack .in {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 22px 32px;
+      display: flex;
+      gap: 12px 32px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-weight: 500
+    }
+
+    .stack b {
+      color: var(--text);
+      font-weight: 600
+    }
+
+    /* Proyectos */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px
+    }
+
+    .card.empty {
+      background: transparent;
+      border: 1.5px dashed #3A4357
+    }
+
+    .card h3 {
+      font-size: 22px;
+      line-height: 1.2
+    }
+
+    .card p {
+      color: var(--muted)
+    }
+
+    .shot {
+      height: 150px;
+      border-radius: 12px;
+      background: #222938;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px
+    }
+
+    .shot i {
+      display: block;
+      height: 8px;
+      border-radius: 6px;
+      background: #343C50
+    }
+
+    .shot i.a {
+      height: 10px;
+      width: 40%;
+      background: var(--accent)
+    }
+
+    .shot i.b {
+      flex: 1;
+      height: auto;
+      border-radius: 8px;
+      background: #2B3347
+    }
+
+    .shot.ph {
+      background: transparent;
+      border: 1.5px dashed #343C50;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 14px
+    }
+
+    .go {
+      display: flex;
+      gap: 20px;
+      font-weight: 600;
+      margin-top: auto
+    }
+
+    .go a:first-child {
+      color: var(--accent)
+    }
+
+    .go a:last-child {
+      color: var(--soft)
+    }
+
+    /* Experiencia */
+    .sep {
+      border-top: 1px solid #222836
+    }
+
+    .job {
+      display: flex;
+      gap: 16px 40px;
+      flex-wrap: wrap;
+      padding: 28px 0;
+      border-top: 1px solid var(--line)
+    }
+
+    .job:last-of-type {
+      border-bottom: 1px solid var(--line)
+    }
+
+    .when {
+      flex: 0 0 190px;
+      color: var(--muted);
+      font-weight: 500
+    }
+
+    .what {
+      flex: 1 1 420px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px
+    }
+
+    .what h3 {
+      font-size: 22px;
+      line-height: 1.2
+    }
+
+    .org {
+      color: var(--accent);
+      font-weight: 600
+    }
+
+    .what ul {
+      margin: 6px 0 0;
+      padding-left: 20px;
+      color: var(--soft);
+      display: flex;
+      flex-direction: column;
+      gap: 6px
+    }
+
+    /* Skills e idiomas */
+    .two {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 56px
+    }
+
+    .col {
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+    }
+
+    .grp b {
+      display: block;
+      margin-bottom: 8px
+    }
+
+    .lang {
+      display: flex;
+      justify-content: space-between;
+      padding: 16px 0;
+      border-bottom: 1px solid var(--line)
+    }
+
+    .lang:last-child {
+      border-bottom: 0
+    }
+
+    .lang span:first-child {
+      font-weight: 600
+    }
+
+    .lang span:last-child {
+      color: var(--muted)
+    }
+
+    /* Contacto */
+    .cta {
+      padding: 48px;
+      align-items: flex-start;
+      gap: 20px;
+      border-color: #5C4E10
+    }
+
+    .cta p {
+      font-size: 18px;
+      max-width: 560px
+    }
+
+    footer {
+      border-top: 1px solid #222836;
+      padding: 28px 32px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px
+    }
+
+    /* Efectos al pasar el ratón (solo en dispositivos con ratón; nada esencial depende de ellos) */
+    @media (hover:hover) {
+
+      .btn,
+      .card,
+      .tag {
+        transition: transform .2s, border-color .2s, background-color .2s, color .2s
+      }
+
+      .btn:hover {
+        transform: translateY(-2px)
+      }
+
+      .btn.p:hover {
+        background: #FFE066;
+        border-color: #FFE066
+      }
+
+      .card:not(.empty):hover {
+        transform: translateY(-6px);
+        border-color: var(--accent)
+      }
+
+      .tag:hover {
+        border-color: var(--accent);
+        color: var(--text)
+      }
+
+      .go a {
+        transition: transform .2s
+      }
+
+      .go a:hover {
+        transform: translateX(3px)
+      }
+
+      /* Etiqueta que aparece sobre la foto */
+      .ring {
+        position: relative
+      }
+
+      .ring::after {
+        content: "Madrid · España";
+        position: absolute;
+        left: 50%;
+        bottom: -14px;
+        transform: translate(-50%, 8px);
+        padding: 8px 16px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: var(--bg);
+        font-weight: 600;
+        font-size: 14px;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .2s, transform .2s
+      }
+
+      .ring:hover::after {
+        opacity: 1;
+        transform: translate(-50%, 0)
+      }
+
+      /* Tooltip: añade data-tip="texto" a cualquier elemento */
+      [data-tip] {
+        position: relative;
+        cursor: default
+      }
+
+      [data-tip]::after {
+        content: attr(data-tip);
+        position: absolute;
+        left: 50%;
+        bottom: calc(100% + 8px);
+        transform: translate(-50%, 4px);
+        padding: 6px 12px;
+        border-radius: 8px;
+        background: var(--surface);
+        border: 1px solid var(--line);
+        color: var(--text);
+        font-size: 13px;
+        white-space: nowrap;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 3;
+        transition: opacity .2s, transform .2s
+      }
+
+      [data-tip]:hover::after,
+      [data-tip]:focus-visible::after {
+        opacity: 1;
+        transform: translate(-50%, 0)
+      }
+    }
+
+    @media (max-width:720px) {
+      .nav {
+        display: none
+      }
+
+      .wrap {
+        padding: 56px 20px
+      }
+
+      .top .in {
+        padding: 12px 20px
+      }
+
+      .cta {
+        padding: 28px
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce) {
+      html {
+        scroll-behavior: auto
+      }
+
+      * {
+        transition: none !important
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="top">
+    <div class="in">
+      <a class="logo" href="#inicio">Irani<span>.</span>dev</a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#skills">Skills</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <!-- Sube tu CV en PDF a assets/cv-iran-lourenco.pdf -->
+      <a class="btn p" href="assets/doc/Iran_Lourenco_CV_ES.pdf" download>Descargar CV</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="wrap hero">
+      <div class="txt">
+        <span class="tag pill">● Disponible para prácticas y soporte IT · Madrid</span>
+        <h1>Hola, soy <span>Iran Lourenço</span></h1>
+        <p class="role">Desarrollador Full Stack · Técnico ASIR (junior)</p>
+        <p class="intro">Combino desarrollo web, bases de datos y soporte técnico. Vivo en Madrid y busco mi próxima
+          oportunidad en soporte IT / helpdesk.</p>
+        <div class="row">
+          <a class="btn p" href="#proyectos">Ver proyectos</a>
+          <a class="btn" href="#contacto">Contactar</a>
+        </div>
+        <div class="links">
+          <a href="https://www.linkedin.com/in/iran-dev/">LinkedIn ↗</a>
+          <a href="https://github.com/Iranlsjr">GitHub ↗</a>
+        </div>
+      </div>
+      <div class="photo">
+        <div class="ring">
+          <img src="assets/img/img-iran.jpeg" alt="Foto de Iran Lourenço" width="300" height="300">
+        </div>
+      </div>
+    </section>
+
+    <section class="stack" aria-label="Stack">
+      <div class="in">
+        <b>Stack</b>
+        <span tabindex="0" data-tip="Grupo DM10 · ASIR">SQL</span>
+        <span tabindex="0" data-tip="Grupo DM10">PHP</span>
+        <span tabindex="0" data-tip="Grupo DM10 · Medio Web">JavaScript</span>
+        <span tabindex="0" data-tip="Grupo DM10">Python</span>
+        <span tabindex="0" data-tip="Grupo DM10 · Medio Web">HTML · CSS</span>
+        <span>Git</span><span>REST APIs</span>
+      </div>
+    </section>
+
+    <section id="proyectos" class="wrap">
+      <h2 class="h2">Proyectos</h2>
+      <p class="lead">Lo que he construido, con demo y código.</p>
+      <div class="grid">
+
+        <article class="card">
+          <!-- Cambia este bloque por una captura: <img src="assets/img/medioweb.png" alt="..."> -->
+          <div class="shot"><i class="a"></i><i style="width:80%"></i><i style="width:65%"></i><i class="b"></i></div>
+          <h3>Medio Web</h3>
+          <p>Sitio web de servicios para clientes de Madrid: inicio, servicios, precios, contacto y privacidad.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span
+              class="tag">JavaScript</span><span class="tag">GitHub Pages</span></div>
+          <div class="go"><a href="#">Ver demo ↗</a><a href="#">Código ↗</a></div>
+        </article>
+
+        <article class="card">
+          <div class="shot"><i class="a" style="width:30%"></i><i class="b"></i></div>
+          <h3>Base de datos Tienda Escolar</h3>
+          <p>Modelado y consultas SQL sobre una base de datos de tienda escolar, trabajada en SQLite durante el ciclo
+            ASIR.</p>
+          <div class="tags"><span class="tag">SQL</span><span class="tag">SQLite</span><span class="tag">ASIR</span>
+          </div>
+          <div class="go"><a href="#">Ver caso ↗</a><a href="#">Código ↗</a></div>
+        </article>
+
+        <!-- Reemplaza este bloque por un proyecto tuyo o bórralo -->
+        <article class="card empty">
+          <div class="shot ph">[Captura del proyecto]</div>
+          <h3>[Tu próximo proyecto]</h3>
+          <p>Qué problema resuelve, qué hiciste tú y con qué tecnologías. Una captura y dos enlaces bastan.</p>
+          <div class="tags"><span class="tag">[tecnología]</span><span class="tag">[tecnología]</span></div>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="experiencia" class="sep">
+      <div class="wrap">
+        <h2 class="h2">Experiencia y formación</h2>
+        <p class="lead">De lo más reciente a lo más antiguo.</p>
+
+        <div class="job">
+          <div class="when">En curso</div>
+          <div class="what">
+            <h3>Técnico en ASIR · 1.º curso</h3>
+            <p class="org">Prometeu / The Powers · Madrid</p>
+            <p>Administración de Sistemas Informáticos en Red: redes, sistemas y bases de datos.</p>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="when">Jul 2024 – Ago 2025</div>
+          <div class="what">
+            <h3>Analista de Soporte de TI</h3>
+            <p class="org">Grupo DM10 · São Paulo, Brasil</p>
+            <ul>
+              <li>Soporte técnico del sistema y atención de solicitudes y modificaciones.</li>
+              <li>Consultas y cambios en SQL, comparación de tablas y pruebas de optimización.</li>
+              <li>Corrección de errores con su documentación.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="job">
+          <div class="when">Ene 2024 – Jul 2024</div>
+          <div class="what">
+            <h3>Becario en Desarrollo de Sistemas</h3>
+            <p class="org">Grupo DM10 · São Paulo, Brasil</p>
+            <ul>
+              <li>Pruebas funcionales, casos de prueba y soporte.</li>
+              <li>SQL: modelado, integración y copias de seguridad.</li>
+              <li>Desarrollo web con HTML, CSS, PHP, Python y JavaScript.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="sep">
+      <div class="wrap two">
+        <div class="col">
+          <h2 class="h2">Skills</h2>
+          <div class="grp"><b>Desarrollo</b>
+            <div class="tags"><span class="tag">PHP</span><span class="tag">JavaScript</span><span
+                class="tag">Python</span><span class="tag">HTML</span><span class="tag">CSS</span><span
+                class="tag">ScriptCase</span></div>
+          </div>
+          <div class="grp"><b>Datos y APIs</b>
+            <div class="tags"><span class="tag">SQL</span><span class="tag">REST APIs</span></div>
+          </div>
+          <div class="grp"><b>Herramientas</b>
+            <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span></div>
+          </div>
+          <div class="grp"><b>Sistemas y redes</b>
+            <div class="tags"><span class="tag">Redes · en formación</span><span class="tag">Sistemas · en
+                formación</span></div>
+          </div>
+        </div>
+        <div class="col">
+          <h2 class="h2">Idiomas</h2>
+          <div class="card" style="gap:0;padding:8px 24px">
+            <div class="lang"><span>Portugués</span><span>Nativo</span></div>
+            <div class="lang"><span>Español</span><span>[tu nivel]</span></div>
+            <div class="lang"><span>Inglés</span><span>Intermedio</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="wrap" style="padding-top:24px">
+      <div class="card cta">
+        <h2 class="h2">¿Hablamos?</h2>
+        <p class="muted">Escríbeme por el canal que prefieras. Te respondo rápido.</p>
+        <div class="row">
+          <a class="btn p" href="mailto:lourenco.j.br@gmail.com">lourenco.j.br@gmail.com</a>
+          <a class="btn" href="https://wa.me/34654264995">WhatsApp · +34 654 26 4995</a>
+          <a class="btn" href="https://www.linkedin.com/in/iran-dev/">LinkedIn ↗</a>
+          <a class="btn" href="https://github.com/Iranlsjr">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Iran Lourenço · Madrid, España</footer>
+
+</body>
+
+</html>

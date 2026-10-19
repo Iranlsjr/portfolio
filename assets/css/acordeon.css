@@ -1,0 +1,63 @@
+.acordeon {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  transition: 1s;
+}
+/*Quando estiver aberto*/
+.acordeon.acordeon.open,
+.acordeon:hover {
+  background-color: #323946;
+  border-color: #fff;
+}
+/* Acordeon fechado (botton)*/
+.acordeon .trigger {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+.acordeon .trigger h2{
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: start;
+}
+/*------------------------------------*/
+
+/* Ícone Arrow*/
+.acordeon .trigger::after {
+  content: "";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url(../img/icons/acordeon/icons8-divisa-circulada-acima-30.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.7s;
+}
+/*Ícone Arrow   Aberto*/
+.acordeon.open .trigger::after {
+  transform: rotate(180deg);
+}
+/*ACORDEON ABERTO*/
+.acordeon .content {
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+/*Mostrar conteudo*/
+.acordeon.open .content {
+  display: block;
+  padding: 0 1rem 1rem 2rem;
+  height: auto;
+  opacity: 1;
+}

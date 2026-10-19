@@ -1,0 +1,108 @@
+{
+  "name": "Irani Lourenço",
+  "photo": "https://avatars.githubusercontent.com/u/199543098?v=4",
+  "sobre": "En TryHackMe, mi perfil ha sido clasificado en esta área, lo que refleja mi enfoque en aprender sobre la identificación de vulnerabilidades y la evaluación de la seguridad de sistemas. En este portafolio, comparto mis estudios y proyectos en este ámbito.",
+  "job": "Dev Full Stack  | ASIR - Junior",
+  "localization": "Madrid - ES",
+  "linkedin": "LinkedIn",
+  "github": "Github",
+  "phone": "+34 654 26 4995",
+  "email": "lourenco.j.br@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Linux",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-linux-50.png"
+      },
+           {
+        "name": "RedHat",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-red-hat-50.png"
+      },
+            {
+        "name": "Angular",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-angular-50.png"
+      },
+                  {
+        "name": "NMAP",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-nmap-50.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-javascript-50.png"
+      },
+      {
+        "name": "PHP",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-php-50.png"
+      },
+      {
+        "name": "Python",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-python-50.png"
+      },
+      {
+        "name": "Flutter",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-flutter-50.png"
+      },
+            {
+        "name": "DBeaver",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-castor-50.png"
+      },
+          {
+        "name": "Cisco Packet Tracer",  
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-rastreador-de-paquetes-cisco-50.png"
+      },
+      {
+        "name": "MySQL",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-mysql-50.png"
+      },
+      {
+        "name": "Git",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-git-50.png"
+      },
+      {
+        "name": "GitHub",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-github-50.png"
+      },
+      {
+        "name": "Trello",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-trello-50.png"
+      },
+      {
+        "name": "HubSpot",
+        "logo": "https://raw.githubusercontent.com/Iranlsjr/portfolio/refs/heads/main/assets/data/img/icons/tools/icons8-hubspot-50.png"
+      }
+    ],
+    "softSkills": [
+      "Vontade de aprender e se desenvolver",
+      "Proatividade e curiosidade",
+      "Boa comunicação e trabalho em equipe",
+      "Organização e responsabilidade com prazos"
+    ]
+  },
+  "languages": ["Português BR", "Espanhol (intermediary)", "Inglês (Basic)"],
+  "portfolio": [
+    {
+      "name": "Landing page para corretor de imóveis",
+      "url": "https://symphonious-twilight-ac97e6.netlify.app/",
+      "github": true
+    }
+  ],
+     "Formación": [
+    {
+      "name": "ASIR",
+      "url": "https://thepower.education/",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Analista de Soporte de TI - Grupo DM10",
+      "period": "Jul 2024 - Current",
+      "description": "Soporte técnico a usuarios sobre el uso del sistema: gestión de requisiciones, consultas y modificaciones en bases de datos SQL.  Pruebas de optimización del sistema y propuestas de mejora.  Identificación y corrección de errores (bugs), con documentación de problemas y soluciones.  Manipulación de bases de datos SQL y comparación de tablas."
+    },
+    {
+      "name": "Becario en Desarrollo de Sistemas - Grupo DM10",
+      "period": "Jan 2024 - Jul 2024",
+      "description": "• Soporte y pruebas de sistemas y aplicaciones: pruebas funcionales, casos de prueba y documentación de incidencias. Trabajo con SQL: gestión, modelado, integración de datos, copias de seguridad y recuperación.  Desarrollo web con HTML, CSS, PHP, Python y JavaScript, con integración front-end y back-end."
+    }
+  ]
+}
