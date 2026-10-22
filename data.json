@@ -1,5 +1,6 @@
 {
   "stack": [
+    { "name": "Inteligencia Artificial" },
     { "name": "Pentest" },
     { "name": "OSINT" },
     { "name": "Exploracíon de la Red"},
